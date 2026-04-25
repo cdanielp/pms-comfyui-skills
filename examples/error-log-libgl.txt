@@ -1,0 +1,19 @@
+[ComfyUI] Loading: ComfyUI-Manager (V3.30.4)
+[ComfyUI] Loading: ComfyUI-AnimateDiff-Evolved
+Failed to import custom node from: /workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+Traceback (most recent call last):
+  File "/workspace/ComfyUI/nodes.py", line 1872, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/workspace/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/__init__.py", line 8, in <module>
+    import cv2
+  File "/usr/local/lib/python3.11/dist-packages/cv2/__init__.py", line 181, in <module>
+    bootstrap()
+  File "/usr/local/lib/python3.11/dist-packages/cv2/__init__.py", line 153, in bootstrap
+    native_module = importlib.import_module("cv2")
+ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+
+[ComfyUI] Loading: ComfyUI_PromptModels (v1.5.0)
+[ComfyUI] [BatchEscenas] Loaded
+[ComfyUI] Loading: rgthree-comfy
