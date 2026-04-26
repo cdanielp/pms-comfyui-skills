@@ -1,6 +1,6 @@
 ---
 name: pms-comfyui-skills
-description: Pack de skills para ComfyUI en español. Diagnostica errores de carga, simplifica workflows, audita stack vigente y migra workflows obsoletos. Activar cuando el usuario mencione ComfyUI, custom nodes, errores al cargar nodos, o workflows .json. Comandos disponibles: /comfy:fix
+description: Diagnostica errores de ComfyUI, custom nodes que no cargan, y workflows. Pack en español de Prompt Models Studio. Activar cuando el usuario mencione: ComfyUI, error al cargar, missing custom node, ImportError, ModuleNotFoundError, Failed to import, workflow .json, o pega un log de consola de ComfyUI. Comandos: /comfy:fix
 ---
 
 # PMS ComfyUI Skills
